@@ -6,7 +6,7 @@
 #include "Stack.h"
 #include "WordsMachine.h"
 
-size_t WordsMachine::split(const string &txt, vector < string> & strs, char ch) {
+size_t WordsMachine::split(const string &txt, std::vector < string> & strs, char ch) {
 	size_t initPos = 0;
 	size_t pos = txt.find(ch);
 	strs.clear();
@@ -20,7 +20,7 @@ size_t WordsMachine::split(const string &txt, vector < string> & strs, char ch) 
 
 	cout << pos << endl;
 	size_t txtSize = txt.size();
-	size_t lastPos = min(pos, txtSize);
+	size_t lastPos = std::min(pos, txtSize);
 	strs.push_back(txt.substr(initPos, lastPos - initPos + 1));
 	return strs.size();
 };

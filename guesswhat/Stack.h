@@ -3,7 +3,8 @@
 #include <vector>
 #include <string>
 #include <algorithm>
-using namespace std;
+using std::cout;
+using std::endl;
 
 const int SIZE(256);
 class Stack {

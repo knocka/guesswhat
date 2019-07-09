@@ -1,24 +1,5 @@
-﻿  BinarySearch.cpp
-c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\binarysearch.cpp(50): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  btree.cpp
-  DailyUsed.cpp
-c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\dailyused.cpp(66): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
-c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\dailyused.cpp(67): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
-c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\dailyused.cpp(73): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
-  guesswhat.cpp
-c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\guesswhat.cpp(91): warning C4101: 'temp': unreferenced local variable
-  ListDemo.cpp
-  Polygon.cpp
-  Stack.cpp
-  Fibonacci.cpp
-  StackDemo1.cpp
-  StackOverflowDemo.cpp
-c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\stackoverflowdemo.cpp(22): warning C4101: 'e': unreferenced local variable
-  StringWorks.cpp
-c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\stringworks.cpp(13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\stringworks.cpp(31): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  TemplateJungle.cpp
-  WordsMachine.cpp
-  QuickSort.cpp
+﻿  guesswhat.cpp
+c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\guesswhat.cpp(92): warning C4101: 'temp': unreferenced local variable
+  PrimeNumber.cpp
   Generating Code...
   guesswhat.vcxproj -> C:\Users\paullin\Documents\Workspace\testcpp\guesswhat\x64\Debug\guesswhat.exe

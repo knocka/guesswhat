@@ -168,6 +168,7 @@
     <ClCompile Include="guesswhat.cpp" />
     <ClCompile Include="ListDemo.cpp" />
     <ClCompile Include="Polygon.cpp" />
+    <ClCompile Include="PrimeNumber.cpp" />
     <ClCompile Include="Stack.cpp" />
     <ClCompile Include="Fibonacci.cpp" />
     <ClCompile Include="StackDemo1.cpp" />

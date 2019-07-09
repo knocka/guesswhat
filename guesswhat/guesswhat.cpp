@@ -12,6 +12,7 @@
 
 
 using namespace std;
+extern int primenumber_main();
 extern void listdemo_main();
 extern int stackoverflowdemo_main();
 extern int stackdemo1_main();
@@ -103,6 +104,7 @@ void sortme(int*a, int n) {
 int main()
 {
 	bool askMore{ true };
+	primenumber_main();
 	listdemo_main();
 	return 0;
 

@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-using namespace std;
+
 
 template <class T>
 class List {
@@ -83,10 +83,10 @@ public:
 	void printList() {
 		Node * node = m_head;
 		while (node != nullptr) {
-			cout << node->Data << " ";
+			std::cout << node->Data << " ";
 			node = node->Next;
 		}
-		cout << endl;
+		std::cout << std::endl;
 	};
 
 	 friend std::ostream& operator<<(std::ostream& os, const List<T>& list) {

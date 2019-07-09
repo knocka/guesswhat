@@ -1,7 +1,9 @@
 #pragma once
 #include <string>
 #include <iostream>
-using namespace std;
+using std::string;
+using std::cout;
+using std::endl;
 
 template <typename T> 
 T hello_add(const T & a, const T & b) {
