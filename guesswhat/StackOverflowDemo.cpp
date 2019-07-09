@@ -2,7 +2,6 @@
 // Simulate a Stack Overflow and show how to properly handle it via exceptions
 //=============================================================================
 
-#include "pch.h"
 #include "Stack2.hpp" // Stack implementation safely guarded against overflow
 #include <iostream>
 using std::cout;

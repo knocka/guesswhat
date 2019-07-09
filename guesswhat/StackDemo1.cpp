@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "Stack1.hpp"
 #include <cassert>
 #include <iostream>

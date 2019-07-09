@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "Fibonacci.h"
 using namespace std;
 

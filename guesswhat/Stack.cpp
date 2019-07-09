@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "Stack.h"
 
 int Stack::push(int n)

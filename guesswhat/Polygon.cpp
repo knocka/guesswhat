@@ -1,6 +1,5 @@
 
 // dynamic allocation and polymorphism
-#include "pch.h"
 #include <iostream>
 using namespace std;
 

@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "TemplateJungle.h"
 
 void templatejungle_test() {
