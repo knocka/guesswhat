@@ -1,0 +1,4 @@
+﻿  guesswhat.cpp
+c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\guesswhat.cpp(62): warning C4018: '<': signed/unsigned mismatch
+c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\guesswhat.cpp(88): warning C4101: 'temp': unreferenced local variable
+  guesswhat.vcxproj -> C:\Users\paullin\Documents\Workspace\testcpp\guesswhat\Debug\guesswhat.exe
