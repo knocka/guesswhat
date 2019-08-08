@@ -25,13 +25,21 @@ public:
 		cout << "T: " << typeid(a).name() << '\n';
 		x_ = a; 
 	};
-	Hello& operator+(const Hello & other) {
+
+	Hello& operator+(const Hello<T> & other) {
 		cout << "T: " << typeid(other).name() << '\n';
 		x_ += other.x_;
 		return *this;
 	};
-	T x() { return x_; }
+
+	T x() { return x_; };
+
+	friend std::ostream& operator<<(std::ostream& os, const Hello<T>& hello) {
+		os << hello.x();
+		return os;
+	};
 };
+
 
 template <>
 class Hello <string> {
@@ -47,6 +55,11 @@ public:
 		x_ = x_ + '$' + other.x_;
 		return *this;
 	};
-	string x() { return x_; }
+	string x() const { return x_; }
+
+	friend std::ostream& operator<<(std::ostream& os, const Hello<string>& hello) {
+		os << hello.x();
+		return os;
+	};
 };
 

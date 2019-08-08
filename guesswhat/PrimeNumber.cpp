@@ -3,12 +3,13 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-bool isPrime(int x) {
+inline bool isPrime(int x) {
 
 	for (int i = 2; i <= x / i; i++) {
 		int factor = x / i;
 		if (factor * i == x)
 			return false;
+		cout << i << endl;
 	}
 	return true;
 };

@@ -9,6 +9,7 @@ protected:
 public:
 	Polygon(int a, int b) : width(a), height(b) {}
 	virtual int area(void) = 0;
+	~Polygon() {};
 	void printarea()
 	{
 		cout << this->area() << '\n';

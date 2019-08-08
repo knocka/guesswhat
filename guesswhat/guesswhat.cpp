@@ -9,9 +9,13 @@
 #include "WordsMachine.h"
 #include "Fibonacci.h"
 #include "DailyUsed.h"
+#include "binarysearchtree.h"
 
 
 using namespace std;
+extern int usingstd_main();
+extern int findtwosum_main();
+extern int binarytreesearch_main();
 extern int primenumber_main();
 extern void listdemo_main();
 extern int stackoverflowdemo_main();
@@ -88,6 +92,7 @@ void swap(int& a, int& b) {
 	b = temp;
 };
 
+//quick sort
 void sortme(int*a, int n) {
 	int i{ 0 }, j{ 0 }, min, temp;
 	for (; i < n - 1; i++) {
@@ -96,15 +101,62 @@ void sortme(int*a, int n) {
 			if (a[min] > a[j])
 				min = j;
 		}
-		swap(a[i], a[min]);
+		if (i!=j)
+		  swap(a[i], a[min]);
 	}
 };
 
+void bubblesort(int*a, int n) {
+	for (int i = 0; i < n - 1; i++) {
+		for (int j = 0; j < n - 1 - i; j++) {
+			if (a[j] > a[j + 1]) {
+				int temp = a[j+1];
+				a[j + 1] = a[j];
+				a[j] = temp;
+			}
+		}
+	}
+};
 
+#include <forward_list> 
+#include <iterator> 
+#include "Box.h"
+extern int async_main();
+extern int thread_main();
+extern int countwords_main();
 int main()
 {
+	countwords_main();
+	thread_main();
+	async_main();
+	{
+		std::forward_list<string> l1 {"123", "abc", "xyz", "987"};
+		auto b = l1.begin();
+		auto e = l1.end();
+		while (b != e) {
+			cout << *b++ << " ";
+		}
+		cout << endl;
+	}
+	{
+		std::forward_list<Box> boxes;
+		std::copy(std::istream_iterator<Box>(std::cin), std::istream_iterator<Box>(), std::front_inserter(boxes));
+
+		boxes.sort();                                    // Sort the boxes
+		std::cout << "\nAfter sorting the sequence is:\n";
+		// Just to show that we can with Box objects - use an ostream iterator
+		std::copy(std::begin(boxes), std::end(boxes), std::ostream_iterator<Box>(std::cout, " "));
+		std::cout << std::endl;
+	}
 	bool askMore{ true };
+	usingstd_main();
+	return 0;
+	findtwosum_main();
+	return 0;
+	binarytreesearch_main();
+	return 0;
 	primenumber_main();
+	return 0;
 	listdemo_main();
 	return 0;
 
@@ -127,7 +179,17 @@ int main()
 	FB.display();
 	
 	int arr[] = { 12, 12, 14, 90, 14, 14, 14};
-	sortme(arr, sizeof(arr) / sizeof(arr[0]) );
+	int siz = sizeof(arr) / sizeof(arr[0]);
+	sortme(arr,  siz);
+	for (int i = siz - 1; i >= 0; i--)
+		cout << arr[i] << " ";
+	cout << endl;
+
+	bubblesort(arr, siz);
+
+	for (int i = siz - 1; i >= 0; i--)
+		cout << arr[i] << " ";
+	cout << endl;
 
 	int n = sizeof(arr) / sizeof(arr[0]);
 	string flowerLine(8, '*');
