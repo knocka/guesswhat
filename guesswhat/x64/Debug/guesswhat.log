@@ -1,42 +1,5 @@
-﻿  async.cpp
-  BinarySearch.cpp
-c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\binarysearch.cpp(50): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  btree.cpp
-  countwords.cpp
-  DailyUsed.cpp
-c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\dailyused.cpp(66): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
-c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\dailyused.cpp(67): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
-c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\dailyused.cpp(73): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
-  findtwosum.cpp
-  guesswhat.cpp
-c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\guesswhat.cpp(97): warning C4101: 'temp': unreferenced local variable
-c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\box.h(18): warning C4244: 'return': conversion from 'size_t' to 'double', possible loss of data
-  humming.cpp
-  ListDemo.cpp
-  numbercomplement.cpp
-c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\numbercomplement.cpp(13): warning C4018: '<': signed/unsigned mismatch
-  Polygon.cpp
-  PrimeNumber.cpp
-  Stack.cpp
-  Fibonacci.cpp
-  StackDemo1.cpp
-  StackOverflowDemo.cpp
-c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\stackoverflowdemo.cpp(22): warning C4101: 'e': unreferenced local variable
-  StringWorks.cpp
-c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\stringworks.cpp(13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\stringworks.cpp(31): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  TemplateJungle.cpp
-  usingstd.cpp
-c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\usingstd.cpp(81): warning C4267: '=': conversion from 'size_t' to '_Ty', possible loss of data
-          with
-          [
-              _Ty=unsigned int
-          ]
-  WordsMachine.cpp
-  Generating Code...
-c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\binarysearchtree.h(59): warning C4715: 'BinarySearchTree::contains': not all control paths return a value
-c:\users\paullin\documents\workspace\testcpp\guesswhat\guesswhat\findtwosum.cpp(24): warning C4715: 'findTwoSum': not all control paths return a value
-  Compiling...
-  QuickSort.cpp
-  Generating Code...
-  guesswhat.vcxproj -> C:\Users\paullin\Documents\Workspace\testcpp\guesswhat\x64\Debug\guesswhat.exe
+﻿  guesswhat.cpp
+c:\users\paullin\documents\workspace\testcpp\repos\guesswhat\guesswhat\guesswhat.cpp(97): warning C4101: 'temp': unreferenced local variable
+c:\users\paullin\documents\workspace\testcpp\repos\guesswhat\guesswhat\box.h(18): warning C4244: 'return': conversion from 'size_t' to 'double', possible loss of data
+c:\users\paullin\documents\workspace\testcpp\repos\guesswhat\guesswhat\binarysearchtree.h(59): warning C4715: 'BinarySearchTree::contains': not all control paths return a value
+  guesswhat.vcxproj -> C:\Users\paullin\Documents\Workspace\testcpp\repos\guesswhat\x64\Debug\guesswhat.exe

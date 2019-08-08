@@ -150,15 +150,15 @@ int main()
 	}
 	bool askMore{ true };
 	usingstd_main();
-	return 0;
+	//return 0;
 	findtwosum_main();
-	return 0;
+	//return 0;
 	binarytreesearch_main();
-	return 0;
+	//return 0;
 	primenumber_main();
-	return 0;
+	//return 0;
 	listdemo_main();
-	return 0;
+	//return 0;
 
 	stackoverflowdemo_main();
 	//stackdemo1_main();
