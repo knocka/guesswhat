@@ -113,5 +113,17 @@
     <ClCompile Include="numbercomplement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="test101.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="doubelinklist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="disjointsets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kruskal_minimum_spanning_tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

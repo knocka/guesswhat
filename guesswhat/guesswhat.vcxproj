@@ -169,9 +169,12 @@
     <ClCompile Include="btree.cpp" />
     <ClCompile Include="countwords.cpp" />
     <ClCompile Include="DailyUsed.cpp" />
+    <ClCompile Include="disjointsets.cpp" />
+    <ClCompile Include="doubelinklist.cpp" />
     <ClCompile Include="findtwosum.cpp" />
     <ClCompile Include="guesswhat.cpp" />
     <ClCompile Include="humming.cpp" />
+    <ClCompile Include="kruskal_minimum_spanning_tree.cpp" />
     <ClCompile Include="ListDemo.cpp" />
     <ClCompile Include="numbercomplement.cpp" />
     <ClCompile Include="Polygon.cpp" />
@@ -182,6 +185,7 @@
     <ClCompile Include="StackOverflowDemo.cpp" />
     <ClCompile Include="StringWorks.cpp" />
     <ClCompile Include="TemplateJungle.cpp" />
+    <ClCompile Include="test101.cpp" />
     <ClCompile Include="usingstd.cpp" />
     <ClCompile Include="WordsMachine.cpp" />
   </ItemGroup>

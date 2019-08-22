@@ -13,6 +13,9 @@
 
 
 using namespace std;
+extern void test103();
+extern void test102();
+extern void test101();
 extern int usingstd_main();
 extern int findtwosum_main();
 extern int binarytreesearch_main();
@@ -126,6 +129,10 @@ extern int thread_main();
 extern int countwords_main();
 int main()
 {
+	test103();
+	test102();
+	test101();
+	
 	countwords_main();
 	thread_main();
 	async_main();

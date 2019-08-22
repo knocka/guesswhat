@@ -24,6 +24,7 @@ int primenumber_main()
 	int i = 2;
 
 	prime = isPrime(x);
+
 	//while (i <= x / i)
 	//{
 	//	int factor = x / i;

@@ -30,7 +30,8 @@ void foo1(bool clause) {
 int thread_main() {
 	std::vector<std::thread> threadsVector;
 	threadsVector.emplace_back([]() {
-		// Lambda function that will be invoked    
+		// Lambda function that will be invoked  
+		std::cout << "lambda thread" << std::endl;
 	});
 	threadsVector.emplace_back(foo1, true);  // thread will run foo(true)
 	for (auto& thread : threadsVector) {
